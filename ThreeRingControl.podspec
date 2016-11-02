@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/kulichkov/ThreeRingControl", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/kulichkov/ThreeRingControl.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -128,7 +128,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
   
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
+  #  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
 
   # s.requires_arc = true
 
